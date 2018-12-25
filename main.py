@@ -18,7 +18,7 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-     self.redirect("https://10xsecrets.com", True)
+     self.redirect("https://10xsecrets.com/masterclass?cf_affiliate_id=1002594&affiliate_id=1002594", True)
 		# and this is the main code
 
 app = webapp2.WSGIApplication([
